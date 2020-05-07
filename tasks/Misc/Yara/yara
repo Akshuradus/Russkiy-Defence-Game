@@ -1,0 +1,8 @@
+rule the_best_rule
+{
+    strings:
+        $str = "f1139811bbf61362915958806ad30211"
+
+    condition:
+        uint16(0) == 0x5A4D and hash.md5(0, filesize) == $str and filesize < 200KB
+}
