@@ -1,4 +1,4 @@
-# Writeup
+# Description
 
 Strange ancient computer. What is it hiding?
 
